@@ -1,8 +1,10 @@
 ---
 title: "ENVS 193DS Workshop 7"
 date: 2024-05-15
-author: "insert your name here"
+author: "Owen Choy"
 format: html
+editor_options: 
+  chunk_output_type: console
 ---
 
 # Set up
@@ -29,11 +31,11 @@ Look at the file structure in this repository.
 
 Where is this `.qmd` file? Where is the `abalone_growth.csv` file?  
 
-_insert response here_  
+The 'abalone_growth.csv' file is in the 'data' file in my git repository (on my laptop).
 
 Note the file path within the `read_csv()` function. How is this different from how we've stored and read data before?  
 
-_insert response here_  
+This is different from before because it is using the 'here' function and saying 'data' is the file to pull 'abalone_growth.csv'.
 
 **COMMIT AND PUSH YOUR CHANGES!**
 
