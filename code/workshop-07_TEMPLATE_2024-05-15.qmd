@@ -57,7 +57,9 @@ class(abalone)
 
 Compare the three ways of looking at data below. What's different about the outputs, and what's similar?  
 
-_insert response below_
+'str' shows the number of data values in each column, some of the data, and the column headers. 
+'glimpse' shows how many columns there are, the column headers, and more values.
+'class' shows some random stuff idk at all. 
 
 **COMMIT AND PUSH YOUR CHANGES!**
 
